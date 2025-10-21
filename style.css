@@ -1,0 +1,77 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 1rem;
+}
+
+:root {
+  font-size: 18px;
+}
+
+h1,
+p {
+  margin-bottom: .5em;
+}
+
+h1,
+.h1 {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+a {
+  color: rgb(0, 0, 238);
+}
+
+hr {
+  width: 25%;
+  height: 1px;
+  background: #000;
+  border: unset;
+
+  margin-block: 2rem;
+}
+
+body {
+  margin: 0;
+  padding: 1rem 2rem;
+  color: #000;
+  background-color: blanchedalmond;
+
+  font-family: sans-serif;
+  font-optical-sizing: auto;
+
+  min-height: 100dvh;
+  display: flex;
+  flex-direction: column;
+}
+
+code,
+mark {
+  font-family: monospace;
+  background-color: rgba(0, 0, 0, 0.11);
+  padding: 1px 4px;
+  border-radius: 4px;
+}
+
+small {
+  opacity: .7;
+}
+
+footer {
+  margin-top: auto;
+  margin-inline-start: auto;
+}
+
+#visual-search-bar {
+  text-wrap-mode: nowrap;
+  overflow-x: clip;
+  max-width: 100%;
+  display: inline-block;
+}
+
+:root[lang="fa"] body,
+:root[lang="fa"] mark {
+  font-family: "Vazirmatn", sans-serif;
+}
